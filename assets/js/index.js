@@ -20,7 +20,7 @@ function getUserInfo() {
             if (res.status != 0) {
                return layui.layer.msg(res.message, {icon: 5})
             }
-            console.log(res.data);
+            // console.log(res.data);
             
             changeinfo(res.data);
         }
